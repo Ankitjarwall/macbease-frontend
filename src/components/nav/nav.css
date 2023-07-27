@@ -1,0 +1,112 @@
+.nav {
+    width: 100vw;
+    height: 10vh;
+
+    position: relative;
+    /* border: 2px solid black; */
+}
+
+.nav-logo {
+    position: absolute;
+    left: 4%;
+    height: 5vw;
+    top: -1.8vh;
+}
+
+.nav-title {
+    text-align: center;
+    font-size: 1.7vw;
+    font-weight: bold;
+    color: #d7742d;
+    position: absolute;
+    left: 10%;
+    top: 2.2vh;
+}
+
+
+
+.btn1 {
+    left: 20%;
+}
+
+.btn2 {
+    left: 25%;
+}
+
+.btn3 {
+    left: 30%;
+
+}
+
+.btn4 {
+    left: 36.5%;
+
+}
+
+.nav-btn {
+    /* border: 12px solid black; */
+    position: absolute;
+    padding: 1vh 1vh;
+    margin: 2.4vh 1.5vh;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3vw;
+    font-weight: 550;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    border-radius: 1vh;
+}
+
+.nav-btn:hover {
+    background-color: #d7742d;
+    color: white;
+}
+
+.nav-btn-signin {
+
+    position: absolute;
+    right: 4%;
+    padding: 1vh 1.5vh;
+    margin: 2.4vh 2vh;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3vw;
+    font-weight: 550;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 1vh;
+    background-color: #d7742d;
+    color: rgb(255, 255, 255);
+}
+
+.nav-btn-signin:hover {
+    background-color: rgb(43, 159, 20);
+    color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-logo {
+        height: 15vw;
+        top: 1vh;
+    }
+
+    .nav-title {
+        font-size: 5vw;
+        left: 20%;
+        top: 4vh;
+    }
+
+    .nav-btn-signin {
+        padding: 1vh 1.5vh;
+        margin: 3.5vh 1vh;
+        font-size: 3.5vw;
+    }
+
+}

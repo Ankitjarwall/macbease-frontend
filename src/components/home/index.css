@@ -1,0 +1,281 @@
+.bgc-div {
+    background-color: #304059;
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+    top: -10vh;
+    z-index: -1;
+}
+
+.bgc-div-white {
+    position: relative;
+    background-image: url(../assets/hands.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 70%;
+    height: 80vh;
+}
+
+.home-top-btn {
+    position: relative;
+    top: 2.5vh;
+    padding: 1vh 1vh;
+    width: 6vw;
+
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: medium;
+    display: inline-block;
+    transition-duration: 0.5s;
+    cursor: pointer;
+
+    background-color: rgb(152, 43, 7);
+    color: rgb(255, 255, 255);
+    border-radius: 1vh;
+}
+
+.home-top-btn:hover {
+    background-color: #d7742d;
+    color: white;
+    font-weight: bold;
+}
+
+#home-Rebuild_Our_Future,
+#home-we_will {
+    font-size: 280%;
+    font-weight: bold;
+}
+
+#home-demotext {
+    font-size: x-large;
+    font-weight: 600;
+
+}
+
+#home-top-div {
+    position: relative;
+    top: 45%;
+    left: -5%;
+    /* text-align: left; */
+    /* margin-left: 300px; */
+}
+
+#home-highlight-together {
+    font-size: 350%;
+    font-weight: bold;
+    color: #d7692e;
+}
+
+#home-clg-boy {
+    position: relative;
+    background-image: url(../assets/clgboy.png);
+    width: 40vw;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    left: 76%;
+    top: -42.5vh;
+    /* margin-left: 350px;
+    margin-top: -390px; */
+}
+
+.home-skyblue {
+    background-image: url(../assets/education.png);
+}
+
+.home-yellow {
+    background-image: url(../assets/health.jpg);
+}
+
+.home-orange {
+    background-image: url(../assets/food.avif);
+}
+
+.home-box {
+    position: relative;
+    background-size: cover;
+    filter: blur(2.5px);
+    -webkit-filter: blur(2.5px);
+    position: relative;
+    top: -10vh;
+    width: 33.33%;
+    height: 30vh;
+    display: flex;
+    float: left;
+}
+
+
+.home-ourmission-border {
+    margin-left: 18%;
+    display: flex;
+    float: left;
+}
+
+.home-ourmission-text>h2 {
+    color: #d7692e;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.home-ourmission-text {
+    height: 40vh;
+    width: 30vw;
+    text-align: left;
+}
+
+.home-ourmission-text>button {
+    margin-top: 1vh;
+}
+
+.mission-img {
+    background-image: url(../assets/mission.jpg);
+    background-size: cover;
+}
+
+.vision-img {
+    background-image: url(../assets/vision.jfif);
+    background-size: cover;
+    margin-right: 4vw;
+}
+
+.home-ourmission-img {
+    border-radius: 2vh;
+    height: 40vh;
+    width: 30vw;
+}
+
+
+.home-ourprojects {
+    margin-top: 120vh;
+}
+
+.home-ourprojects>h3 {
+    margin-left: -46vw;
+    color: #d7692e;
+    font-size: xx-large;
+}
+
+.home-ongoing-projects {
+    border-radius: 1vw;
+    margin-left: 1vw;
+    height: 33vh;
+    width: 48vh;
+    display: flex;
+    float: left;
+    background-size: cover;
+}
+
+.ongoing1 {
+    background-image: url(../assets/ongoing1.png);
+}
+
+.ongoing2 {
+    background-image: url(../assets/ongoing2.jpg);
+}
+
+.ongoing3 {
+    background-image: url(../assets/ongoing3.jpg);
+}
+
+.ongoing4 {
+    background-image: url(../assets/ongoing4.jpg);
+}
+
+
+@media screen and (max-width: 600px) {
+    .bgc-div {
+        height: 30vh;
+    }
+
+    .bgc-div-white {
+        height: 30vh;
+    }
+
+    .home-top-btn {
+        top: 1vh;
+        padding: 0.5vh 0.5vh;
+        width: 22vw;
+    }
+
+    #home-Rebuild_Our_Future,
+    #home-we_will {
+        font-size: 90%;
+    }
+
+    #home-demotext {
+        font-size: xx-small;
+
+    }
+
+    #home-top-div {
+        position: relative;
+        top: 45%;
+        left: -5%;
+    }
+
+    #home-highlight-together {
+        font-size: 120%;
+    }
+
+    #home-clg-boy {
+        height: 20vh;
+        top: -13vh;
+    }
+
+    .home-box {
+        width: 100%;
+        height: 20vh;
+    }
+
+
+    .home-ourmission-border {
+        margin-left: 5%;
+    }
+
+    .home-ourmission-text>h2 {
+        font-size: x-large;
+    }
+
+    .home-ourmission-text {
+        font-size: xx-small;
+        height: 25vh;
+        width: 90%;
+        text-align: left;
+    }
+
+    .home-ourmission-text>button {
+        margin-top: 0.5vh;
+    }
+
+
+    .vision-img {
+        margin-right: 5vw;
+    }
+
+    .home-ourmission-img {
+        border-radius: 1vh;
+        height: 25vh;
+        width: 40vw;
+    }
+
+
+    .home-ourprojects {
+        margin-top: 115vh;
+    }
+
+    .home-ourprojects>h3 {
+        margin-left: 0vw;
+    }
+
+    .home-ongoing-projects {
+        border-radius: 3vw;
+        margin-left: 5vw;
+        margin-bottom: 1vh;
+        height: 33vh;
+        width: 90%;
+    }
+
+}

@@ -1,0 +1,17 @@
+.footer {
+    position: relative;
+    background-color: #09111d;
+    color: white;
+    font-size: small;
+    font-weight: 400;
+    margin-top: 40vh;
+    height: 5vh;
+    /* border: 2px solid black; */
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        font-size: small;
+        top: 170vh;
+    }
+}
