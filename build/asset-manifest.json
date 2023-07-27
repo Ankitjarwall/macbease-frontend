@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2fac9db5.css",
+    "main.js": "/static/js/main.37f4a938.js",
+    "static/js/787.ff4c5d7f.chunk.js": "/static/js/787.ff4c5d7f.chunk.js",
+    "static/media/education.png": "/static/media/education.a552d620a6ee860f9f15.png",
+    "static/media/ongoing1.png": "/static/media/ongoing1.819cd9c40e4bd69f28f8.png",
+    "static/media/hands.png": "/static/media/hands.2c448dadfefafcfbb7c8.png",
+    "static/media/mission.jpg": "/static/media/mission.037f8a640694ae29348b.jpg",
+    "static/media/ongoing3.jpg": "/static/media/ongoing3.9fd72ddb9e80cb83dfad.jpg",
+    "static/media/health.jpg": "/static/media/health.0ae7d745035a039b5284.jpg",
+    "static/media/ongoing2.jpg": "/static/media/ongoing2.353ba04f638edfe859bd.jpg",
+    "static/media/clgboy.png": "/static/media/clgboy.db5a3c49870b8227521a.png",
+    "static/media/ongoing4.jpg": "/static/media/ongoing4.4dc9e865c421c97e039e.jpg",
+    "static/media/food.avif": "/static/media/food.238159d29609e27eee13.avif",
+    "static/media/vision.jfif": "/static/media/vision.279bd288c2a0708941be.jfif",
+    "index.html": "/index.html",
+    "main.2fac9db5.css.map": "/static/css/main.2fac9db5.css.map",
+    "main.37f4a938.js.map": "/static/js/main.37f4a938.js.map",
+    "787.ff4c5d7f.chunk.js.map": "/static/js/787.ff4c5d7f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fac9db5.css",
+    "static/js/main.37f4a938.js"
+  ]
+}
